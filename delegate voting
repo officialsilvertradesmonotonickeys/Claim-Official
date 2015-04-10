@@ -1,0 +1,28 @@
+# Claim-Official
+Official Claims Registry 
+In delegated voting, the proxy is transitive
+and the transfer recursive. Put simply, 
+the vote may be further delegated to the proxy's proxy,
+and so on. This is also called transitive proxy, 
+delegable proxy and delegate cascade. 
+
+Delegate voting is used by 
+the direct vote overrules 
+the proxy vote. It is also 
+possible to change the proxy 
+at any time.
+
+Use PageRank for the processing 
+of the transitive proxy votes, with 
+the additional constraints of mandating 
+at least two initial proxies 
+per voter, and all voters are proxy candidates.
+
+More complex variants can be built on top of PageRank, such as 
+adding specialist proxies and direct votes for specific issues
+PageRank as the underlying umbrella system,
+mandates that generalist proxies should always be used.
+
+Delegated voting is also used in the World Parliament 
+Experiment, and in implementations of delegative 
+democracy, which is also known as liquid democracy.
